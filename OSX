@@ -1,1 +1,3 @@
-bash_profile: https://natelandau.com/my-mac-osx-bash_profile/
+Good bash_profile: https://natelandau.com/my-mac-osx-bash_profile/
+find . -name '*.py' -exec grep 'something' {} \; > output.txt // grep executed as many times as FIND finds occurences.
+find . -name '*.py' -exec grep 'something' {} \+ > output.txt // the output from find concatenated
