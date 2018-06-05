@@ -1,4 +1,5 @@
 // Source : https://basarat.gitbooks.io/typescript/docs/async-await.html
+// Asyn / Await is an ES8 feature
 
 function delay0(milliseconds: number, count: number): Promise<number> {
     return new Promise<number>(resolve => {
