@@ -21,3 +21,28 @@ function delay(ms: number) {
 }
 
 main();
+
+/* Output
+
+[main] await ping()
+TryAsyncAwait.ts:2
+---------------------------------------------
+TryAsyncAwait.ts:8
+[ping] await 0 delay()
+[delay] returning p
+TryAsyncAwait.ts:18
+[delayTimer] before calling resolve()
+TryAsyncAwait.ts:15
+[ping] awaited delay()
+TryAsyncAwait.ts:10
+---------------------------------------------
+TryAsyncAwait.ts:8
+[ping] await 1 delay()
+[delay] returning p
+TryAsyncAwait.ts:18
+[delayTimer] before calling resolve()
+TryAsyncAwait.ts:15
+[ping] awaited delay()
+TryAsyncAwait.ts:10
+[main] awaited ping()
+*/
