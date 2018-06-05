@@ -1,3 +1,4 @@
+// Source: https://blogs.msdn.microsoft.com/typescript/2015/11/03/what-about-asyncawait/
 async function main() {
     console.log('[main] await ping()');
     await ping();
