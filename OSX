@@ -1,4 +1,4 @@
-Good bash_profile: https://natelandau.com/my-mac-osx-bash_profile/
+[Good bash_profile: https://natelandau.com/my-mac-osx-bash_profile/](https://natelandau.com/my-mac-osx-bash_profile/)
     export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
     export PS2="| => "
   
